@@ -8,10 +8,28 @@
         <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/ic_item.xml" value="0.1065" />
         <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/ic_lock_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/ic_mail_outline_black_24dp.xml" value="0.323" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/ic_person_black_24dp.xml" value="0.323" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/ic_phone_iphone_black_24dp.xml" value="0.323" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/ic_reservation.xml" value="0.323" />
         <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/ic_return.xml" value="0.1" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/ic_school_black_24dp.xml" value="0.323" />
         <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/item_color.xml" value="0.1" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/shape.xml" value="0.323" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/statescrollview.xml" value="0.323" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/statetextview.xml" value="0.323" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable-v24/textlines.xml" value="0.323" />
         <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1065" />
-        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/layout/activity_login.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/layout/fragment1.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/layout/fragment1_itemlist.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/layout/fragment2.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/layout/fragment3.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/layout/fragment4.xml" value="0.25" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/layout/fragment5.xml" value="0.22" />
+        <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/layout/popup_activity.xml" value="0.1778115501519757" />
         <entry key="..\:/Users/windows10/AndroidStudioProjects/Rental_System/app/src/main/res/menu/menu_bottom.xml" value="0.2074074074074074" />
       </map>
     </option>

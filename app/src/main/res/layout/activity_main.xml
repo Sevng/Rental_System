@@ -19,7 +19,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
         app:itemBackground="@color/bottom_nav_color"
-        app:itemIconTint="@drawable/item_color"
+        app:itemIconTint="#EDB739"
         app:itemTextColor="@drawable/item_color"
         app:labelVisibilityMode="unlabeled"
         app:menu="@menu/menu_bottom" />
