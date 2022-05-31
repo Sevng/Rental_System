@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:background="#87CEEB">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Contents"
+            android:textColor="#FFFFFF"
+            android:textSize="33dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:stretchColumns="0,1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#D3D3D3"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mouse" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#D3D3D3"
+            android:scaleType="fitCenter"
+            android:src="@drawable/notebookcharger" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:stretchColumns="0,1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/item_background"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="품목"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="장소"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="남은 개수"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="마우스"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="IT대 401호"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/number_remain_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:hint="ex)100"
+                    android:paddingLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/item_background"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="품목"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="장소"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="남은 개수"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="노트북충전기"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="IT대 402호"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/number_remain_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:hint="ex)100"
+                    android:paddingLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:stretchColumns="0,1">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#D3D3D3"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#D3D3D3"
+            android:scaleType="fitCenter"
+            android:src="@drawable/phonecharger" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:stretchColumns="0,1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/item_background"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="품목"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="장소"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="남은 개수"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="우산"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="IT대 403호"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/number_remain_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:hint="ex)100"
+                    android:paddingLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/item_background"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="품목"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="장소"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="남은 개수"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="휴대폰충전기"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="IT대 404호"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/number_remain_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#87CEFA"
+                    android:gravity="center"
+                    android:hint="ex)100"
+                    android:paddingLeft="5dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:background="#87CEEB"></LinearLayout>
+
+</LinearLayout>

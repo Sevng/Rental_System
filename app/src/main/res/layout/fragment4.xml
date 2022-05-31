@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4DFCF"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#043353"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/logo3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF8F0"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/change_imageview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:src="@drawable/charger" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="300dp"
+            android:layout_height="33dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape"
+            android:gravity="center" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="54dp"
+            android:src="@drawable/rent_time" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FAF8F0"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="202dp"
+            android:layout_height="51dp"
+            android:src="@drawable/rent_period" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:background="#FAF8F0"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/rentalB"
+            android:layout_width="200dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="15dp"
+            android:background="#E44652"
+            android:text="Rent It !!"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!--이 이미지뷰는 인텐트?번들? 로 받아온 물품의 사진을 띄워주는 곳-->
+    <!--일단 그냥 우산이미지를 넣어놓음-->
+
+    <!-- 스피너 -->
+    <!--이 스피너는 자기가 뭘 대여할것인지 고르는 부분-->
+
+    <!--현재 일시-->
+
+    <!--마감 일시-->
+
+    <!--대여 신청 버튼-->
+
+</LinearLayout>

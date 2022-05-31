@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#D4F4FA">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:src="@drawable/rental_req" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textSize="30dp"
+        android:background="@android:color/white" />
+    <!--이 텍스트뷰는 대여를 신청한 사용자의 정보등을 띄워주는 곳-->
+    <!--일단 그냥 예시를 넣어놓음-->
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:src="@drawable/rental_req_time" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/txt1"
+        android:textColor="@android:color/black"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        android:layout_marginBottom="10dp"/>
+    <!--현재 일시-->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="대여 승인"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/okB"
+            />
+        <!--대여 승인 버튼-->
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="대여 반려"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/noB"
+            android:layout_toRightOf="@+id/okB"
+            />
+        <!--대여 반려 버튼-->
+        <Button
+            android:text="물품 관리"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/okB"
+            android:onClick="mOnPopupClick"/>
+        <!-- 물품 개수를 정하는 버튼-->
+    </RelativeLayout>
+
+
+</LinearLayout>
